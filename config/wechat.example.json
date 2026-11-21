@@ -1,0 +1,6 @@
+{
+  "appid": "YOUR_WECHAT_APPID",
+  "envId": "YOUR_CLOUDBASE_ENV_ID",
+  "es6": false,
+  "reviewRequired": true
+}

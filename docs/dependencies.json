@@ -1,0 +1,695 @@
+[
+  {
+    "name": "@cloudbase/adapter-interface",
+    "version": "0.7.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/@cloudbase/adapter-interface/0.7.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "@cloudbase/adapter-wx_mp",
+    "version": "1.4.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/@cloudbase/adapter-wx_mp/1.4.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "@cloudbase/ai",
+    "version": "2.32.0",
+    "licenseDeclaredInLock": "Apache-2.0",
+    "metadataUrl": "https://registry.npmjs.org/@cloudbase/ai/2.32.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "@cloudbase/app",
+    "version": "2.32.0",
+    "licenseDeclaredInLock": "Apache-2.0",
+    "metadataUrl": "https://registry.npmjs.org/@cloudbase/app/2.32.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "@cloudbase/database",
+    "version": "1.4.3",
+    "licenseDeclaredInLock": "ISC",
+    "metadataUrl": "https://registry.npmjs.org/@cloudbase/database/1.4.3",
+    "redistributedCode": false
+  },
+  {
+    "name": "@cloudbase/node-sdk",
+    "version": "3.17.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/@cloudbase/node-sdk/3.17.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "@cloudbase/signature-nodejs",
+    "version": "2.2.0",
+    "licenseDeclaredInLock": "UNDECLARED",
+    "metadataUrl": "https://registry.npmjs.org/@cloudbase/signature-nodejs/2.2.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "@cloudbase/types",
+    "version": "2.32.0",
+    "licenseDeclaredInLock": "Apache-2.0",
+    "metadataUrl": "https://registry.npmjs.org/@cloudbase/types/2.32.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "@cloudbase/utilities",
+    "version": "2.32.0",
+    "licenseDeclaredInLock": "Apache-2.0",
+    "metadataUrl": "https://registry.npmjs.org/@cloudbase/utilities/2.32.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "@cloudbase/wx-cloud-client-sdk",
+    "version": "1.7.1",
+    "licenseDeclaredInLock": "UNDECLARED",
+    "metadataUrl": "https://registry.npmjs.org/@cloudbase/wx-cloud-client-sdk/1.7.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "@mattiasbuelens/web-streams-adapter",
+    "version": "0.1.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/@mattiasbuelens/web-streams-adapter/0.1.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "@protobufjs/aspromise",
+    "version": "1.1.2",
+    "licenseDeclaredInLock": "BSD-3-Clause",
+    "metadataUrl": "https://registry.npmjs.org/@protobufjs/aspromise/1.1.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "@protobufjs/base64",
+    "version": "1.1.2",
+    "licenseDeclaredInLock": "BSD-3-Clause",
+    "metadataUrl": "https://registry.npmjs.org/@protobufjs/base64/1.1.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "@protobufjs/codegen",
+    "version": "2.0.5",
+    "licenseDeclaredInLock": "BSD-3-Clause",
+    "metadataUrl": "https://registry.npmjs.org/@protobufjs/codegen/2.0.5",
+    "redistributedCode": false
+  },
+  {
+    "name": "@protobufjs/eventemitter",
+    "version": "1.1.1",
+    "licenseDeclaredInLock": "BSD-3-Clause",
+    "metadataUrl": "https://registry.npmjs.org/@protobufjs/eventemitter/1.1.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "@protobufjs/fetch",
+    "version": "1.1.1",
+    "licenseDeclaredInLock": "BSD-3-Clause",
+    "metadataUrl": "https://registry.npmjs.org/@protobufjs/fetch/1.1.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "@protobufjs/float",
+    "version": "1.0.2",
+    "licenseDeclaredInLock": "BSD-3-Clause",
+    "metadataUrl": "https://registry.npmjs.org/@protobufjs/float/1.0.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "@protobufjs/path",
+    "version": "1.1.2",
+    "licenseDeclaredInLock": "BSD-3-Clause",
+    "metadataUrl": "https://registry.npmjs.org/@protobufjs/path/1.1.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "@protobufjs/pool",
+    "version": "1.1.0",
+    "licenseDeclaredInLock": "BSD-3-Clause",
+    "metadataUrl": "https://registry.npmjs.org/@protobufjs/pool/1.1.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "@protobufjs/utf8",
+    "version": "1.1.2",
+    "licenseDeclaredInLock": "BSD-3-Clause",
+    "metadataUrl": "https://registry.npmjs.org/@protobufjs/utf8/1.1.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "@tootallnate/once",
+    "version": "2.0.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/@tootallnate/once/2.0.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "@types/clone",
+    "version": "2.1.4",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/@types/clone/2.1.4",
+    "redistributedCode": false
+  },
+  {
+    "name": "@types/node",
+    "version": "26.6.6",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/@types/node/26.6.6",
+    "redistributedCode": false
+  },
+  {
+    "name": "agent-base",
+    "version": "6.0.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/agent-base/6.0.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "agentkeepalive",
+    "version": "4.6.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/agentkeepalive/4.6.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "asynckit",
+    "version": "0.4.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/asynckit/0.4.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "axios",
+    "version": "0.27.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/axios/0.27.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "base64-js",
+    "version": "1.5.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/base64-js/1.5.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "bignumber.js",
+    "version": "9.3.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/bignumber.js/9.3.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "bson",
+    "version": "4.7.2",
+    "licenseDeclaredInLock": "Apache-2.0",
+    "metadataUrl": "https://registry.npmjs.org/bson/4.7.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "buffer",
+    "version": "5.7.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/buffer/5.7.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "buffer-equal-constant-time",
+    "version": "1.0.1",
+    "licenseDeclaredInLock": "BSD-3-Clause",
+    "metadataUrl": "https://registry.npmjs.org/buffer-equal-constant-time/1.0.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "call-bind-apply-helpers",
+    "version": "1.0.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/call-bind-apply-helpers/1.0.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "call-bound",
+    "version": "1.0.4",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/call-bound/1.0.4",
+    "redistributedCode": false
+  },
+  {
+    "name": "clone",
+    "version": "2.1.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/clone/2.1.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "combined-stream",
+    "version": "1.0.8",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/combined-stream/1.0.8",
+    "redistributedCode": false
+  },
+  {
+    "name": "core-js-pure",
+    "version": "3.51.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/core-js-pure/3.51.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "debug",
+    "version": "4.4.3",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/debug/4.4.3",
+    "redistributedCode": false
+  },
+  {
+    "name": "delayed-stream",
+    "version": "1.0.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/delayed-stream/1.0.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "dunder-proto",
+    "version": "1.0.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/dunder-proto/1.0.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "ecdsa-sig-formatter",
+    "version": "1.0.11",
+    "licenseDeclaredInLock": "Apache-2.0",
+    "metadataUrl": "https://registry.npmjs.org/ecdsa-sig-formatter/1.0.11",
+    "redistributedCode": false
+  },
+  {
+    "name": "es-define-property",
+    "version": "1.0.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/es-define-property/1.0.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "es-errors",
+    "version": "1.3.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/es-errors/1.3.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "es-object-atoms",
+    "version": "1.1.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/es-object-atoms/1.1.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "es-set-tostringtag",
+    "version": "2.1.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/es-set-tostringtag/2.1.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "follow-redirects",
+    "version": "1.16.3",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/follow-redirects/1.16.3",
+    "redistributedCode": false
+  },
+  {
+    "name": "form-data",
+    "version": "4.0.6",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/form-data/4.0.6",
+    "redistributedCode": false
+  },
+  {
+    "name": "function-bind",
+    "version": "1.1.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/function-bind/1.1.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "get-intrinsic",
+    "version": "1.3.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/get-intrinsic/1.3.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "get-proto",
+    "version": "1.0.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/get-proto/1.0.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "gopd",
+    "version": "1.2.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/gopd/1.2.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "has-symbols",
+    "version": "1.1.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/has-symbols/1.1.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "has-tostringtag",
+    "version": "1.0.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/has-tostringtag/1.0.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "hasown",
+    "version": "2.0.4",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/hasown/2.0.4",
+    "redistributedCode": false
+  },
+  {
+    "name": "http-proxy-agent",
+    "version": "5.0.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/http-proxy-agent/5.0.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "https-proxy-agent",
+    "version": "5.0.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/https-proxy-agent/5.0.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "humanize-ms",
+    "version": "1.2.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/humanize-ms/1.2.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "ieee754",
+    "version": "1.2.1",
+    "licenseDeclaredInLock": "BSD-3-Clause",
+    "metadataUrl": "https://registry.npmjs.org/ieee754/1.2.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "is-stream",
+    "version": "2.0.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/is-stream/2.0.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "json-bigint",
+    "version": "1.0.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/json-bigint/1.0.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "jsonwebtoken",
+    "version": "9.0.3",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/jsonwebtoken/9.0.3",
+    "redistributedCode": false
+  },
+  {
+    "name": "jwa",
+    "version": "2.0.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/jwa/2.0.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "jws",
+    "version": "4.0.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/jws/4.0.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "jwt-decode",
+    "version": "3.1.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/jwt-decode/3.1.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "lodash.clonedeep",
+    "version": "4.5.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/lodash.clonedeep/4.5.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "lodash.includes",
+    "version": "4.3.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/lodash.includes/4.3.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "lodash.isboolean",
+    "version": "3.0.3",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/lodash.isboolean/3.0.3",
+    "redistributedCode": false
+  },
+  {
+    "name": "lodash.isinteger",
+    "version": "4.0.4",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/lodash.isinteger/4.0.4",
+    "redistributedCode": false
+  },
+  {
+    "name": "lodash.isnumber",
+    "version": "3.0.3",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/lodash.isnumber/3.0.3",
+    "redistributedCode": false
+  },
+  {
+    "name": "lodash.isplainobject",
+    "version": "4.0.6",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/lodash.isplainobject/4.0.6",
+    "redistributedCode": false
+  },
+  {
+    "name": "lodash.isstring",
+    "version": "4.0.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/lodash.isstring/4.0.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "lodash.once",
+    "version": "4.1.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/lodash.once/4.1.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "lodash.set",
+    "version": "4.3.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/lodash.set/4.3.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "lodash.unset",
+    "version": "4.5.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/lodash.unset/4.5.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "long",
+    "version": "5.3.2",
+    "licenseDeclaredInLock": "Apache-2.0",
+    "metadataUrl": "https://registry.npmjs.org/long/5.3.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "math-intrinsics",
+    "version": "1.1.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/math-intrinsics/1.1.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "mime-db",
+    "version": "1.52.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/mime-db/1.52.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "mime-types",
+    "version": "2.1.35",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/mime-types/2.1.35",
+    "redistributedCode": false
+  },
+  {
+    "name": "ms",
+    "version": "2.1.3",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/ms/2.1.3",
+    "redistributedCode": false
+  },
+  {
+    "name": "object-inspect",
+    "version": "1.13.4",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/object-inspect/1.13.4",
+    "redistributedCode": false
+  },
+  {
+    "name": "protobufjs",
+    "version": "7.6.6",
+    "licenseDeclaredInLock": "BSD-3-Clause",
+    "metadataUrl": "https://registry.npmjs.org/protobufjs/7.6.6",
+    "redistributedCode": false
+  },
+  {
+    "name": "punycode",
+    "version": "1.4.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/punycode/1.4.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "qs",
+    "version": "6.17.1",
+    "licenseDeclaredInLock": "BSD-3-Clause",
+    "metadataUrl": "https://registry.npmjs.org/qs/6.17.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "retry",
+    "version": "0.13.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/retry/0.13.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "safe-buffer",
+    "version": "5.2.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/safe-buffer/5.2.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "sax",
+    "version": "1.6.1",
+    "licenseDeclaredInLock": "BlueOak-1.0.0",
+    "metadataUrl": "https://registry.npmjs.org/sax/1.6.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "semver",
+    "version": "7.8.6",
+    "licenseDeclaredInLock": "ISC",
+    "metadataUrl": "https://registry.npmjs.org/semver/7.8.6",
+    "redistributedCode": false
+  },
+  {
+    "name": "side-channel",
+    "version": "1.1.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/side-channel/1.1.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "side-channel-list",
+    "version": "1.0.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/side-channel-list/1.0.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "side-channel-map",
+    "version": "1.0.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/side-channel-map/1.0.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "side-channel-weakmap",
+    "version": "1.0.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/side-channel-weakmap/1.0.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "text-encoding-shim",
+    "version": "1.0.5",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/text-encoding-shim/1.0.5",
+    "redistributedCode": false
+  },
+  {
+    "name": "tslib",
+    "version": "1.14.1",
+    "licenseDeclaredInLock": "0BSD",
+    "metadataUrl": "https://registry.npmjs.org/tslib/1.14.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "undici-types",
+    "version": "8.9.0",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/undici-types/8.9.0",
+    "redistributedCode": false
+  },
+  {
+    "name": "url",
+    "version": "0.11.4",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/url/0.11.4",
+    "redistributedCode": false
+  },
+  {
+    "name": "web-streams-polyfill",
+    "version": "4.5.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/web-streams-polyfill/4.5.1",
+    "redistributedCode": false
+  },
+  {
+    "name": "wx-server-sdk",
+    "version": "4.0.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/wx-server-sdk/4.0.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "xml2js",
+    "version": "0.6.2",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/xml2js/0.6.2",
+    "redistributedCode": false
+  },
+  {
+    "name": "xmlbuilder",
+    "version": "11.0.1",
+    "licenseDeclaredInLock": "MIT",
+    "metadataUrl": "https://registry.npmjs.org/xmlbuilder/11.0.1",
+    "redistributedCode": false
+  }
+]

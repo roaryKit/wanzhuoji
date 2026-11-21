@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "tag-picker": "/components/tag-picker/index",
+    "fade-toast": "/components/fade-toast/index",
+    "profile-sheet": "/components/profile-sheet/index"
+  },
+  "backgroundColor": "@bg"
+}

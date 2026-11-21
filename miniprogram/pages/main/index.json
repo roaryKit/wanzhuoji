@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "tab-home": "/components/tab-home/index",
+    "tab-plaza": "/components/tab-plaza/index",
+    "tab-wines": "/components/tab-wines/index",
+    "tab-settings": "/components/tab-settings/index"
+  },
+  "backgroundColor": "@bg",
+  "navigationStyle": "custom"
+}

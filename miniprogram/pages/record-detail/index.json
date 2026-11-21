@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "photo-stack": "/components/photo-stack/index",
+    "profile-sheet": "/components/profile-sheet/index"
+  },
+  "backgroundColor": "@bg"
+}

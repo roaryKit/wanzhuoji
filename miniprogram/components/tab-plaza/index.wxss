@@ -1,0 +1,7 @@
+/* v3: layout comes from shared app.wxss (large title, chip bar, cards) */
+
+.rt-segments{display:flex;background:var(--fill);border-radius:20rpx;padding:6rpx;margin-top:24rpx}.rt-segments text{flex:1;text-align:center;padding:14rpx 0;font-size:28rpx;color:var(--sub);border-radius:16rpx}.rt-segments .on{background:var(--card);color:var(--text);font-weight:600}
+.rt-segments text.on{background:linear-gradient(180deg,var(--btn-top),var(--btn-bottom));color:var(--on-primary);box-shadow:0 4rpx 12rpx var(--shadow)}
+
+
+.rt-quick-actions{display:flex;align-items:center;justify-content:space-between;gap:12rpx;flex-wrap:wrap;padding-top:12rpx}.rt-quick-actions button.small{margin:0!important;min-height:64rpx;line-height:40rpx;font-size:25rpx;padding:10rpx 20rpx;max-width:65%}.rt-pending-badge{display:inline-flex;justify-content:center;align-items:center;min-width:34rpx;padding:0 7rpx;border-radius:24rpx;background:var(--warn);color:var(--bg);font-size:22rpx}.rt-review-fixed{color:var(--primary)}

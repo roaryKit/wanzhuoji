@@ -1,0 +1,2 @@
+<!-- Shared compact page-title row, on the same native page scroll as the feed. -->
+<template name="compactTitle"><view class="compact-title">{{label}}</view></template>

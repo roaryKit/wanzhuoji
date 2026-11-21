@@ -1,0 +1,23 @@
+{
+  "purpose": "人工审查清单，非平台CLI导入格式",
+  "collections": [
+    "users",
+    "records",
+    "wines",
+    "likes",
+    "comments",
+    "reports",
+    "rt_tables",
+    "rt_users",
+    "rt_requests",
+    "rt_messages",
+    "rt_events",
+    "rt_reports",
+    "rt_uploads"
+  ],
+  "perCollectionRule": {
+    "read": false,
+    "write": false
+  },
+  "applyAutomatically": false
+}

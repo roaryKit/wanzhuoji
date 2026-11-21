@@ -1,0 +1,14 @@
+/* v3 custom tab bar: iOS 49pt bar + safe area, 27pt icons (filled when selected), 10.5pt labels */
+.shell{min-height:100vh;background:#110E0F}.shell.light{background:#F3EBE0}
+.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:100;display:flex;background:rgba(22,22,26,.94);border-top:.5px solid rgba(84,84,88,.55);padding-bottom:env(safe-area-inset-bottom);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}
+.tabbar.light{background:rgba(249,246,242,.94);border-top-color:rgba(60,60,67,.18)}
+.tabbar-item{flex:1;min-width:0;height:49px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:6px;box-sizing:border-box;gap:4rpx;color:#7C8290}
+.tabbar.light .tabbar-item{color:#8E929A}
+.tabbar-item.on{color:#C4A060}.tabbar.light .tabbar-item.on{color:#A67C3A}
+.tabbar-icon{width:54rpx;height:54rpx;background-color:currentColor}
+.tabbar-text{font-size:21rpx;line-height:26rpx;font-weight:500;letter-spacing:.4rpx}
+
+.tabbar{background:rgba(17,14,15,.96);border-top:1rpx solid rgba(196,160,100,.18);backdrop-filter:blur(18px)}.tabbar.light{background:rgba(247,241,232,.96);border-top-color:rgba(150,110,55,.22)}.tabbar-item{color:#968777}.tabbar-item.on{color:#E8C99A}.tabbar.light .tabbar-item{color:#897B6E}.tabbar.light .tabbar-item.on{color:#A67C3A}.tabbar-icon{width:42rpx;height:42rpx}.tabbar-text{font-size:20rpx;letter-spacing:1rpx}
+
+/* Brand is independent of the photograph and the compact current-page title. */
+.main-brand{position:fixed;top:0;left:0;right:0;z-index:80;background:var(--bg);color:var(--text);pointer-events:none;border-bottom:1rpx solid var(--line)}.main-brand-row{position:absolute;display:flex;align-items:center;justify-content:center;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;font-size:17px;font-weight:500;letter-spacing:2px;line-height:1.2;white-space:nowrap}.main-shell{box-sizing:border-box}

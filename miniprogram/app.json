@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/age-gate/index",
+    "pages/main/index",
+    "pages/wine-detail/index",
+    "pages/record-edit/index",
+    "pages/record-detail/index",
+    "pages/export/index",
+    "pages/legal/index",
+    "pages/profile/index",
+    "pages/roundtable-form/index",
+    "pages/roundtable-chat/index",
+    "pages/roundtable-members/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "晚酌集",
+    "navigationBarBackgroundColor": "@navBg",
+    "navigationBarTextStyle": "@navText",
+    "backgroundColor": "@bg",
+    "backgroundColorTop": "@bg",
+    "backgroundColorBottom": "@bg",
+    "backgroundTextStyle": "@bgText"
+  },
+  "style": "v2",
+  "darkmode": true,
+  "themeLocation": "theme.json",
+  "sitemapLocation": "sitemap.json"
+}

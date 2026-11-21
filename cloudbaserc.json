@@ -1,0 +1,55 @@
+{
+  "envId": "YOUR_CLOUDBASE_ENV_ID",
+  "functionRoot": "cloudfunctions",
+  "functions": [
+    {
+      "name": "initUser",
+      "runtime": "Nodejs20.19",
+      "timeout": 60,
+      "handler": "index.main",
+      "installDependency": true
+    },
+    {
+      "name": "submitRecord",
+      "runtime": "Nodejs20.19",
+      "timeout": 60,
+      "handler": "index.main",
+      "installDependency": true
+    },
+    {
+      "name": "getPlaza",
+      "runtime": "Nodejs20.19",
+      "timeout": 60,
+      "handler": "index.main",
+      "installDependency": true
+    },
+    {
+      "name": "mediaCheckCallback",
+      "runtime": "Nodejs20.19",
+      "timeout": 60,
+      "handler": "index.main",
+      "installDependency": true
+    },
+    {
+      "name": "reportRecord",
+      "runtime": "Nodejs20.19",
+      "timeout": 60,
+      "handler": "index.main",
+      "installDependency": true
+    },
+    {
+      "name": "clearMyData",
+      "runtime": "Nodejs20.19",
+      "timeout": 60,
+      "handler": "index.main",
+      "installDependency": true
+    },
+    {
+      "name": "roundtable",
+      "runtime": "Nodejs20.19",
+      "timeout": 60,
+      "handler": "index.main",
+      "installDependency": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+/* v3 mood tag picker: iOS capsule chips (36pt), selected = filled amber */
+:host{display:block}
+.tp-chips{display:flex;flex-wrap:wrap;gap:16rpx}
+.tp-chip{box-sizing:border-box;display:inline-flex;align-items:center;height:72rpx;padding:0 30rpx;border-radius:36rpx;background:var(--fill,rgba(118,118,128,.24));color:var(--text,#EDEAE5);font-size:30rpx;font-weight:500;white-space:nowrap}
+.tp-chosen{background:var(--primary,#C4A060);color:var(--on-primary,#17171A);font-weight:600}

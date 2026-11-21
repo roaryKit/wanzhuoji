@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "wine-card": "/components/wine-card/index"
+  }
+}

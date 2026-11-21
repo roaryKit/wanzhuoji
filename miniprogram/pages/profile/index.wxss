@@ -1,0 +1,14 @@
+/* 个人资料：iOS 设置里的大头像 + 分组列表 */
+.pf-head{display:flex;flex-direction:column;align-items:center;padding:40rpx 0 8rpx}
+button.pf-avatar-btn,button.pf-avatar-btn:not([size=mini]){display:flex;flex-direction:column;align-items:center;gap:16rpx;width:auto;margin:0 auto;padding:0;background:transparent;line-height:1.2;overflow:visible}
+button.pf-avatar-btn::after{border:none}
+.pf-avatar{width:176rpx;height:176rpx}
+.pf-change{font-size:28rpx;color:var(--primary)}
+.pf-note{margin-top:12rpx}
+.pf-warn{color:var(--warn)}
+.pf-label{flex:none;width:120rpx;font-size:34rpx;line-height:44rpx;padding:22rpx 0}
+.pf-input{flex:1;min-width:0;height:96rpx;font-size:34rpx;color:var(--text);text-align:right}
+.pf-ph{color:var(--mute)}
+button.pf-save{margin-top:32rpx}
+
+.screen .title,.screen .large-title{font-family:var(--serif);font-weight:500;color:var(--gold-soft)}.screen .card,.screen .group{border:1rpx solid var(--sep);background:linear-gradient(135deg,var(--card-top),transparent 70%),var(--card);box-shadow:0 8rpx 24rpx var(--shadow)}.screen button.primary{border-radius:44rpx;background:linear-gradient(180deg,var(--btn-top),var(--btn-mid) 53%,var(--btn-bottom));color:var(--on-primary)}

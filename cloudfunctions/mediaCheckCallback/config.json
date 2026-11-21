@@ -1,0 +1,10 @@
+{
+  "envId": "YOUR_CLOUDBASE_ENV_ID",
+  "appid": "YOUR_WECHAT_APPID",
+  "permissions": {
+    "openapi": [
+      "security.msgSecCheck",
+      "security.mediaCheckAsync"
+    ]
+  }
+}

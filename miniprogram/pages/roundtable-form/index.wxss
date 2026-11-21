@@ -1,0 +1,5 @@
+.rt-form{margin-top:28rpx}.rt-form>text{display:block;font-size:26rpx;color:var(--sub);margin:24rpx 0 8rpx}.rt-form input,.rt-form textarea{background:var(--fill);border-radius:16rpx;padding:16rpx 20rpx;font-size:30rpx}.rt-form textarea{height:160rpx;font-family:inherit;line-height:42rpx}
+
+.rt-capacity-picker{display:flex;justify-content:space-between;align-items:center;min-height:84rpx;padding:0 24rpx;border-radius:16rpx;background:var(--fill);color:var(--accent);font-size:30rpx}
+
+.premium-capacities{display:flex;gap:12rpx;margin:10rpx 0 18rpx}.premium-capacity{flex:1;min-width:0;width:0;min-height:80rpx;line-height:80rpx;margin:0;padding:0;border-radius:18rpx;border:1rpx solid var(--sep);background:var(--fill);color:var(--gold-soft);font-size:32rpx;font-family:var(--serif)}.premium-capacity.selected{background:linear-gradient(180deg,var(--btn-top),var(--btn-bottom));color:var(--on-primary)}.rt-form{padding:28rpx}.rt-form>text{font-size:26rpx;color:var(--sub)}.rt-form textarea,.rt-form input{font-size:28rpx}

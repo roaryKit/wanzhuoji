@@ -1,0 +1,17 @@
+/* v3: one row of the inset grouped wine list (44pt category square, stars, count + chevron) */
+:host{display:block}
+.wine-row{position:relative;display:flex;align-items:center;gap:28rpx;min-height:128rpx;padding:0 32rpx;box-sizing:border-box;color:var(--text,#EDEAE5)}
+.wine-sep::before{content:'';position:absolute;top:0;right:0;left:148rpx;height:1px;background:var(--sep,rgba(84,84,88,.55));transform:scaleY(.5);transform-origin:0 0}
+.wine-hover{background:var(--fill,rgba(118,118,128,.24))}
+.wine-tile{flex:none;width:88rpx;height:88rpx;border-radius:20rpx;background:var(--primary-soft,rgba(198,155,118,.16));color:var(--primary,#C4A060);font-size:38rpx;font-weight:600;display:flex;align-items:center;justify-content:center}
+.wine-main{flex:1;min-width:0;padding:22rpx 0}
+.wine-name{font-size:34rpx;font-weight:600;line-height:44rpx;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.wine-meta{display:flex;align-items:center;gap:4rpx;margin-top:8rpx}
+.wine-star{width:26rpx;height:26rpx;background-color:var(--fill,rgba(118,118,128,.24))}
+.wine-star.on{background-color:var(--primary,#C4A060)}
+.wine-info{margin-left:12rpx;font-size:26rpx;line-height:36rpx;color:var(--mute,#7C8290);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.wine-count{flex:none;display:flex;align-items:baseline;gap:6rpx;font-size:30rpx;color:var(--mute,#7C8290)}
+.wine-count-num{font-size:34rpx;font-weight:600;color:var(--text,#EDEAE5)}
+.wine-chev{width:18rpx;height:30rpx;background-color:var(--mute,#7C8290);opacity:.7}
+
+.wine-row{min-height:116rpx;padding:16rpx 20rpx;box-sizing:border-box}.wine-name{font-family:var(--serif);color:var(--gold-soft);font-size:32rpx}.wine-tile{background:var(--primary-soft);border:1rpx solid var(--sep);color:var(--primary);width:70rpx;height:70rpx;border-radius:18rpx}.wine-count{color:var(--primary)}.wine-count-num{font-family:var(--serif)}.wine-hover{background:var(--fill)}

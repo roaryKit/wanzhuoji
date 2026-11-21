@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "record-card": "/components/record-card/index",
+    "profile-sheet": "/components/profile-sheet/index",
+    "roundtable-list": "/components/roundtable-list/index"
+  }
+}

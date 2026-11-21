@@ -1,0 +1,16 @@
+{
+  "name": "wanzhuoji",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "node scripts/check.js",
+    "check:deploy": "node scripts/check-config.js",
+    "scan": "python3 scripts/scan-release.py"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "version": "0.3.8-portable.20261121",
+  "license": "UNLICENSED",
+  "description": "晚酌集：不携带业务测试数据的可配置源码，许可待确认，仅面向成年人"
+}

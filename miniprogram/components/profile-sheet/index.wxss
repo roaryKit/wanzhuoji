@@ -1,0 +1,16 @@
+/* iOS 风格底部面板：圆角卡片 + 抓手，头像居中，昵称输入，主按钮与“暂不设置” */
+:host{display:block}
+.ps-mask{position:fixed;left:0;top:0;right:0;bottom:0;z-index:100;background:rgba(0,0,0,.4);display:flex;align-items:flex-end}
+.ps-sheet{width:100%;box-sizing:border-box;background:var(--card);color:var(--text);border-radius:32rpx 32rpx 0 0;padding:16rpx 40rpx calc(32rpx + env(safe-area-inset-bottom));display:flex;flex-direction:column;align-items:center}
+.ps-grabber{width:72rpx;height:10rpx;border-radius:5rpx;background:var(--fill);margin-bottom:28rpx}
+.ps-title{font-size:36rpx;font-weight:600;line-height:48rpx}
+.ps-sub{margin-top:12rpx;font-size:26rpx;line-height:38rpx;color:var(--sub);text-align:center}
+button.ps-avatar-btn,button.ps-avatar-btn:not([size=mini]){display:flex;flex-direction:column;align-items:center;gap:12rpx;width:auto;margin:36rpx auto 0;padding:0;background:transparent;line-height:1.2;overflow:visible}
+button.ps-avatar-btn::after{border:none}
+.ps-avatar{width:144rpx;height:144rpx}
+.ps-avatar-tip{font-size:26rpx;color:var(--primary)}
+.ps-field{width:100%;margin-top:32rpx}
+.ps-input{height:88rpx;padding:0 28rpx;border-radius:20rpx;background:var(--fill);font-size:32rpx;color:var(--text);text-align:center}
+.ps-ph{color:var(--mute)}
+button.ps-save{margin-top:32rpx}
+.ps-skip{margin-top:20rpx;padding:16rpx 32rpx;font-size:28rpx;color:var(--sub)}

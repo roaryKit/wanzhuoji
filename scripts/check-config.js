@@ -1,0 +1,1 @@
+const c=require('../miniprogram/utils/config');if(!/^wx[0-9a-f]{16}$/.test(c.appid)||/^wx0+$/.test(c.appid)||!/^[A-Za-z0-9][A-Za-z0-9_-]{2,79}$/.test(c.envId)||/^(YOUR_|example-|test-)/.test(c.envId))throw Error('尚未配置可部署AppID/云环境：先在独立私有副本运行 scripts/configure.js；此检查不证明平台权限或上线资格');console.log('配置格式通过；仍需平台权限、审核、ACL与真机验收');

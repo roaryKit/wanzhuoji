@@ -1,0 +1,19 @@
+/* 多图叠放：收起是一摞带旋转的照片（露出边缘 + 张数角标），轻点后平滑铺开成一排；铺开后轻点单张看大图 */
+:host{display:block}
+/* 照片整体靠右（像聊天里自己发出的图片） */
+.ps-root{display:flex;flex-direction:column;align-items:flex-end}
+.ps{position:relative}
+.ps-item{position:absolute;box-sizing:border-box;border-radius:22rpx;overflow:hidden;background:var(--fill,rgba(118,118,128,.24));animation:ps-in .14s ease-out;box-shadow:0 6rpx 18rpx rgba(0,0,0,.28);border:3rpx solid var(--card,#241C18)}
+.ps-card .ps-item{border-radius:18rpx}
+.ps-open .ps-item{box-shadow:none;border-width:0}
+.ps-item::after,.ps-single::after{content:'';position:absolute;left:0;top:0;right:0;bottom:0;border-radius:inherit;border:1px solid var(--line,rgba(255,255,255,.08));pointer-events:none}
+.ps-img{display:block;width:100%;height:100%;border-radius:0}
+.ps-count{position:absolute;right:10rpx;bottom:10rpx;display:flex;align-items:center;gap:6rpx;height:40rpx;padding:0 14rpx;border-radius:20rpx;background:rgba(0,0,0,.55);color:#fff;font-size:24rpx;font-weight:600;line-height:40rpx}
+.ps-count-ic{width:24rpx;height:24rpx;background-color:#fff}
+.ps-toggle{align-self:flex-end;display:inline-flex;align-items:center;min-height:56rpx;margin-top:4rpx;font-size:26rpx;font-weight:500;color:var(--primary,#C4A060)}
+.ps-single{position:relative;overflow:hidden;background:var(--fill,rgba(118,118,128,.24))}
+.ps-single-card{width:150rpx;height:150rpx;border-radius:18rpx}
+.ps-single-detail{width:180rpx;height:180rpx;border-radius:20rpx}
+
+/* 只给照片一个很短的淡入，位置与尺寸立即切换，正文布局同帧完成 */
+@keyframes ps-in{from{opacity:.6}to{opacity:1}}

@@ -1,0 +1,26 @@
+{
+  "sourceVersion": "0.3.8-test.1120",
+  "sourceFilesVerified": 253,
+  "selectedFiles": 226,
+  "sourceSnapshotDigest": "76afe6b83168668fbfbfe11623127f802790fa34b171b6154ac4e7339abe4451",
+  "sanitization": {
+    "identifierOccurrences": 43,
+    "hostOrNameOccurrences": 1,
+    "embeddedRasterReplaced": 1,
+    "embeddedSvgVariantsReplaced": 27,
+    "binaryAssetsReplaced": 3
+  },
+  "portableRevision": "0.3.8-portable.20261121",
+  "predecessor": "0.3.8 sanitized review candidate, not a new WeChat upload",
+  "portableChanges": [
+    "remove six simulated screenshots and renderer from source; optional separate materials archive",
+    "remove renderer-only third-party dev dependency",
+    "remove frontend demonstration-table description entries; preserve unchanged server legacy refusal",
+    "add new-host docs, learning tutorial, four in-memory clean-empty tests",
+    "refresh reviewed portable configuration-sensitive fingerprints"
+  ],
+  "businessDataIncluded": false,
+  "diagnosticFunctionIncluded": false,
+  "cloudFunctionsCount": 7,
+  "productionChanged": false
+}

@@ -1,0 +1,3 @@
+const {envId}=require('./utils/config');App({globalData:{theme:'dark',themeMode:'system',user:null,denied:false},onLaunch(){const theme=require('./utils/theme');this.globalData.themeMode=theme.mode();this.globalData.theme=theme.current();theme.native(this.globalData.theme);this.globalData.denied=!!wx.getStorageSync('ageDenied');if(envId&&wx.cloud)wx.cloud.init({env:envId,traceUser:false})},onShow(){const pages=getCurrentPages();const p=pages[pages.length-1];if(p&&p.route!=='pages/age-gate/index')require('./utils/page').guard(p)},
+// Follow the phone/WeChat dark mode (needs "darkmode": true in app.json).
+onThemeChange(res){require('./utils/theme').onSystemChange(res&&res.theme)}});

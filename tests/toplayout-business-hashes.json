@@ -1,0 +1,17 @@
+{
+  "cloudfunctions/getPlaza/roundtable.js": "cc9d9713fbfc2e6ad65ae2e022acc0faaf46ce939c267774db3dfabe93e0f4c9",
+  "cloudfunctions/clearMyData/roundtable.js": "cc9d9713fbfc2e6ad65ae2e022acc0faaf46ce939c267774db3dfabe93e0f4c9",
+  "cloudfunctions/initUser/roundtable.js": "cc9d9713fbfc2e6ad65ae2e022acc0faaf46ce939c267774db3dfabe93e0f4c9",
+  "cloudfunctions/mediaCheckCallback/roundtable.js": "cc9d9713fbfc2e6ad65ae2e022acc0faaf46ce939c267774db3dfabe93e0f4c9",
+  "cloudfunctions/reportRecord/roundtable.js": "cc9d9713fbfc2e6ad65ae2e022acc0faaf46ce939c267774db3dfabe93e0f4c9",
+  "cloudfunctions/submitRecord/roundtable.js": "cc9d9713fbfc2e6ad65ae2e022acc0faaf46ce939c267774db3dfabe93e0f4c9",
+  "cloudfunctions/roundtable/roundtable.js": "cc9d9713fbfc2e6ad65ae2e022acc0faaf46ce939c267774db3dfabe93e0f4c9",
+  "miniprogram/pages/roundtable-chat/index.js": "bf57fcc0f24e3e2909a7a7694432e9910ea6967f566ee74a8fb7f28b83691104",
+  "cloudfunctions/getPlaza/service.js": "f3ce0453d37f4d6a0766b33ab7a50d627e4ebc5e10ec40eae96f5034a8f029a4",
+  "cloudfunctions/clearMyData/service.js": "f3ce0453d37f4d6a0766b33ab7a50d627e4ebc5e10ec40eae96f5034a8f029a4",
+  "cloudfunctions/initUser/service.js": "f3ce0453d37f4d6a0766b33ab7a50d627e4ebc5e10ec40eae96f5034a8f029a4",
+  "cloudfunctions/mediaCheckCallback/service.js": "f3ce0453d37f4d6a0766b33ab7a50d627e4ebc5e10ec40eae96f5034a8f029a4",
+  "cloudfunctions/reportRecord/service.js": "f3ce0453d37f4d6a0766b33ab7a50d627e4ebc5e10ec40eae96f5034a8f029a4",
+  "cloudfunctions/submitRecord/service.js": "f3ce0453d37f4d6a0766b33ab7a50d627e4ebc5e10ec40eae96f5034a8f029a4",
+  "cloudfunctions/roundtable/service.js": "f3ce0453d37f4d6a0766b33ab7a50d627e4ebc5e10ec40eae96f5034a8f029a4"
+}

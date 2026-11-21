@@ -1,0 +1,50 @@
+/* v3 record card: 18pt padding, 14pt radius, no border; quote in serif (16pt) */
+:host{display:block}
+.rc{position:relative;background:var(--card,#241C18);border-radius:28rpx;padding:36rpx 36rpx 32rpx;margin:0 0 24rpx;color:var(--text,#EDEAE5)}
+.rc-top{display:flex;justify-content:space-between;align-items:center;gap:16rpx;min-height:56rpx}
+.rc-top-text{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rc-dots{position:relative;flex:none;width:56rpx;height:56rpx;border-radius:28rpx;background:var(--fill,rgba(118,118,128,.24));display:flex;align-items:center;justify-content:center;margin:-8rpx -8rpx -8rpx 0;padding:0}
+.rc-dots-icon{width:32rpx;height:32rpx;background-color:var(--sub,#A7AFBE)}
+/* 标题、标签通栏；正文在左、照片（叠放）在正文右侧顶端对齐；铺开后换到正文下方整行靠右（见 components/photo-stack） */
+.rc-name{margin-top:12rpx}
+.rc-body{display:flex;align-items:flex-start;gap:24rpx;margin-top:16rpx}
+.rc-body .record-text{margin-top:0}
+.rc-body-open{flex-wrap:wrap;gap:20rpx 0}
+.rc-body-open .rc-main{flex-basis:100%}
+.rc-body-open .rc-photos{flex-basis:100%;margin-top:0;display:flex;justify-content:flex-end}
+.rc-main{position:relative;flex:1;min-width:0}
+.rc-name{display:flex;align-items:baseline;flex-wrap:wrap;gap:0 16rpx}
+.rc-title{font-size:40rpx;font-weight:600;line-height:50rpx;color:var(--text,#EDEAE5)}
+.rc-abv{font-size:30rpx;font-weight:600;color:var(--primary,#C4A060)}
+.rc-tags{display:flex;flex-wrap:wrap;gap:12rpx;margin-top:16rpx}
+.rc-photos{flex:none;margin-top:4rpx}
+.rc-thumb-hover{opacity:.7}
+.record-text,.full-measure{font-family:var(--serif,serif);font-size:32rpx;line-height:52rpx;white-space:pre-wrap;color:var(--text,#EDEAE5)}
+.record-text{margin-top:16rpx}
+.clamp{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.full-measure{position:absolute;visibility:hidden;pointer-events:none;left:0;right:0;top:0}
+.rc-audit{display:flex;align-items:center;flex-wrap:wrap;gap:12rpx;margin-top:20rpx}
+.rc-foot{display:flex;justify-content:space-between;align-items:center;gap:16rpx;margin-top:28rpx;padding-top:20rpx;position:relative;min-height:44rpx}
+.rc-foot::before{content:'';position:absolute;left:0;right:0;top:0;height:1px;background:var(--sep,rgba(84,84,88,.55));transform:scaleY(.5);transform-origin:0 0}
+.rc-priv{display:flex;align-items:center;gap:12rpx;font-size:26rpx;color:var(--mute,#7C8290)}
+.rc-priv-icon{width:30rpx;height:30rpx;background-color:var(--mute,#7C8290)}
+.expand-control{display:inline-flex;align-items:center;justify-content:flex-end;min-width:44px;min-height:44px;margin:-12px 0;font-size:26rpx;font-weight:500;color:var(--primary,#C4A060)}
+.rc-dots::after{content:'';position:absolute;left:-16rpx;right:-16rpx;top:-16rpx;bottom:-16rpx}
+
+/* 广场：底部一行克制的 赞 / 评论 / 转发（类豆瓣），点赞即时切换 */
+.rc-foot-date{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rc-acts{display:flex;align-items:center;gap:8rpx;flex:none;margin:-16rpx -12rpx -16rpx 0}
+.rc-act{display:flex;align-items:center;gap:8rpx;min-height:72rpx;padding:0 14rpx;font-size:26rpx;line-height:36rpx;color:var(--mute,#7C8290)}
+.rc-act-ic{width:34rpx;height:34rpx;background-color:currentColor}
+.rc-act.on{color:var(--primary,#C4A060)}
+.rc-act-n{font-variant-numeric:tabular-nums}
+button.rc-share,button.rc-share:not([size=mini]){width:auto;max-width:none;margin:0;padding:0 14rpx;background:transparent;border-radius:0;font-size:26rpx;line-height:36rpx;color:var(--mute,#7C8290);font-weight:400;overflow:visible}
+button.rc-share::after{border:none}
+/* 广场卡片顶部：作者头像 + 昵称（未设置或匿名时为默认头像 + 陌生人） */
+.rc-author{display:flex;align-items:center;gap:16rpx;min-width:0;flex:1}
+.rc-avatar{width:56rpx;height:56rpx}
+.rc-author-name{min-width:0;font-size:28rpx;font-weight:500;line-height:40rpx;color:var(--sub,#A7AFBE);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+.rc{padding:26rpx;border:1rpx solid var(--sep);background:linear-gradient(135deg,var(--card-top),transparent 70%),var(--card);border-radius:24rpx;box-shadow:0 8rpx 28rpx var(--shadow)}.rc-top{min-height:40rpx}.rc-avatar{width:42rpx;height:42rpx}.rc-author{gap:12rpx}.rc-author-name{font-size:24rpx}.rc-dots{width:44rpx;height:44rpx;background:transparent}.rc-name{margin-top:8rpx}.rc-title{font-family:var(--serif);font-weight:500;font-size:35rpx;color:var(--gold-soft)}.rc-abv{font-size:25rpx}.rc-tags{gap:8rpx;margin-top:8rpx}.rc-body{gap:22rpx;margin-top:10rpx}.record-text,.full-measure{font-size:28rpx;line-height:44rpx}.rc-foot{margin-top:16rpx;padding-top:12rpx;min-height:32rpx}.rc-foot-date,.rc-priv{font-size:22rpx}.rc-acts{gap:2rpx;margin-right:-8rpx}.rc-act{padding:0 8rpx;gap:5rpx;font-size:23rpx}.rc-act-ic{width:28rpx;height:28rpx}.rc-priv-icon{width:24rpx;height:24rpx}.rc-foot::before{background:var(--line)}
+
+.rc-avatar-label{display:flex;align-items:center;justify-content:center;background:var(--primary-soft);color:var(--text);font-size:22rpx}

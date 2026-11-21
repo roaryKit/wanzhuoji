@@ -1,0 +1,1 @@
+<view class="tp-chips"><text wx:for="{{items}}" wx:key="label" data-tag="{{item.label}}" bindtap="toggle" class="tp-chip {{item.selected?'tp-chosen':''}}">{{item.label}}</text></view>

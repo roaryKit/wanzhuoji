@@ -1,0 +1,13 @@
+.age-screen{display:flex;flex-direction:column;min-height:100vh;padding-top:48rpx}
+.eyebrow{font-size:26rpx;line-height:36rpx;color:var(--primary);font-weight:600;letter-spacing:4rpx;padding:0 8rpx;margin-bottom:8rpx}
+.age-title{margin-bottom:36rpx}
+.age-card{padding:36rpx}
+.age-legal{font-size:34rpx;line-height:52rpx}
+.age-notice{display:block;margin-top:24rpx}
+.age-reading>.age-notice{padding:0 8rpx}
+.age-actions{margin-top:auto;padding-top:80rpx}
+.age-actions .secondary{margin-top:8rpx}
+.status{display:block;margin-bottom:16rpx;padding:0 8rpx}
+
+
+.screen .title,.screen .large-title{font-family:var(--serif);font-weight:500;color:var(--gold-soft)}.screen .card,.screen .group{border:1rpx solid var(--sep);background:linear-gradient(135deg,var(--card-top),transparent 70%),var(--card);box-shadow:0 8rpx 24rpx var(--shadow)}.screen button.primary{border-radius:44rpx;background:linear-gradient(180deg,var(--btn-top),var(--btn-mid) 53%,var(--btn-bottom));color:var(--on-primary)}

@@ -1,0 +1,5 @@
+.legal-card{font-size:30rpx;line-height:50rpx;color:var(--text)}
+.legal-card>view{margin-top:20rpx}
+
+
+.screen .title,.screen .large-title{font-family:var(--serif);font-weight:500;color:var(--gold-soft)}.screen .card,.screen .group{border:1rpx solid var(--sep);background:linear-gradient(135deg,var(--card-top),transparent 70%),var(--card);box-shadow:0 8rpx 24rpx var(--shadow)}.screen button.primary{border-radius:44rpx;background:linear-gradient(180deg,var(--btn-top),var(--btn-mid) 53%,var(--btn-bottom));color:var(--on-primary)}

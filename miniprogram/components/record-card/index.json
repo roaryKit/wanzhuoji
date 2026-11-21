@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "photo-stack": "/components/photo-stack/index"
+  }
+}
